@@ -17,7 +17,7 @@ import (
 // end
 
 func main() {
-	file, err := os.Open("day1_input.txt")
+	file, err := os.Open("puzzle1_input.txt")
 
 	if err != nil {
 		log.Fatal("Failed to open file.")
