@@ -13,8 +13,7 @@ import (
 // e.g.: distance between (p1, p2) and (q1, q2) is |p1-q1|+|p2-q2|
 
 // we need to translate the wire information we have into some arithmetic value as positions
-// we will do that with sets of 4 numbers, one for each right, left, up, down
-// if at some point all numbers in the set are the same for both wires => intersetion point
+// we will do that with a pair of numbers, one for axis x, one for axis y
 
 // Point is a pair of coordinates on the cartesian axes
 type Point struct {
